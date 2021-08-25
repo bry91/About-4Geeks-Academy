@@ -1,0 +1,87 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bryan
+    last_name: Suazo
+    
+    # Define yourself in 4-5 words
+    motto: Study hard and Smart
+    
+    # focus
+    focus: Studying
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have been practacing coding for two years. I love to know how websites are made. I found it very interesting.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn4.vectorstock.com/i/1000x1000/06/18/male-avatar-profile-picture-vector-10210618.jpg
+
+    # Contact Information
+    email: bryan199105@gmail.com
+    phone: 9543857042 #optional
+    linkedin: linkedin.com/in/bryan91/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: bryan91
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Anime
+
+      - item: chess
+
+# Your previous education
+education:
+    - degree: Mechanical engeering
+      university: Broward College
+      time: 2012 - 2014
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: bagger 
+      time: 2015 - 2016
+      company: Publix
+      # optional
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram photo feed
+        tagline: "Used HTML, CSS, bootstrap to build this nice project"
+
+skills:
+    toolset:
+      - name: HTML, CSS & Bootstrap
+        level: 75%
+
+      - name: Javascript 
+        level: 60%
+
+      - name: mehcanics
+        level: 60%
+
+      - name: Fitness
+        level: 80%
+
+     
